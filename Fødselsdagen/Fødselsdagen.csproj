@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A948727E-0758-4A45-B74C-370FF12A9C3B}</ProjectGuid>
+    <ProjectGuid>{94E60AF1-AC92-4B99-B2D1-F52CC6171EF7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StarsAndStripes</RootNamespace>
-    <AssemblyName>StarsAndStripes</AssemblyName>
+    <RootNamespace>Fødselsdagen</RootNamespace>
+    <AssemblyName>Fødselsdagen</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

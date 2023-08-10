@@ -16,15 +16,16 @@ namespace Temperaturberegneren
         }
 
         /// <summary>
-        /// Draws an question, and retrieves the user input
+        /// Draws a question, and retrieves a user input
         /// </summary>
         /// <returns>The user input as an float</returns>
         static float MainQuestion()
         {
             Console.Clear();
 
-            // Asks the questions until the user give an float as answer
             float inputCelcius = 0;
+
+            // Asks a question until the user give an float as answer
             do
             {
                 Console.WriteLine("Please enter the number you want to convert in celcius.");
@@ -49,11 +50,12 @@ namespace Temperaturberegneren
         static float ConvertToReaumur(float celciusNum) => celciusNum * 0.8F;
 
         /// <summary>
-        /// Draws the result of the converted celcius, and waits for an user input. Fahrenheit and Reaumur will be shown
+        /// Draws the result of the converted celcius, and waits for a user input. Fahrenheit and Reaumur will be shown
         /// </summary>
         /// <param name="celciusNum">number in celcius which will be converted</param>
         static void Result(float celciusNum)
         {
+            // Converts from celcius to the needed temperature scale
             float fahreinheit = ConvertToFahreinheit(celciusNum);
             float reaumur = ConvertToReaumur(celciusNum);
 
@@ -63,6 +65,7 @@ namespace Temperaturberegneren
             Console.WriteLine($"Reaumur: {reaumur} °R");
             Console.WriteLine("\nPress R for converting a new number, or any other key for closing the program");
 
+            // Waits for an user input, and if the user presses R, then can the user convert a new number
             if (Console.ReadKey(true).Key == ConsoleKey.R)
                 Result(MainQuestion());
         }

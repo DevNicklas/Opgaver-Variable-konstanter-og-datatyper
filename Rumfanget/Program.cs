@@ -15,7 +15,7 @@ namespace Rumfanget
         }
 
         /// <summary>
-        /// Draws an question, and retrieves the user input
+        /// Draws a question, and retrieves the user input
         /// </summary>
         /// <returns>The user input as an double</returns>
         static double GetInputWithQuestion(string question)

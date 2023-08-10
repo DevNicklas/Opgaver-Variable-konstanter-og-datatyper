@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("StarsAndStripes")]
+[assembly: AssemblyTitle("Fødselsdagen")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("EFIF")]
-[assembly: AssemblyProduct("StarsAndStripes")]
-[assembly: AssemblyCopyright("Copyright © EFIF 2023")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Fødselsdagen")]
+[assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a948727e-0758-4a45-b74c-370ff12a9c3b")]
+[assembly: Guid("94e60af1-ac92-4b99-b2d1-f52cc6171ef7")]
 
 // Version information for an assembly consists of the following four values:
 //
