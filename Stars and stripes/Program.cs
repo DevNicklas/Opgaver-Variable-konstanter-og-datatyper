@@ -67,7 +67,6 @@ namespace Stars_and_stripes
         /// </summary>
         static void DrawFlag()
         {
-
             // Red and white stripes
             for (int y = 0; y < height / 2; y++)
             {
