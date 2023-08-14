@@ -35,7 +35,7 @@ namespace Fødselsdagen
 
             Console.Clear();
             Console.WriteLine($"You are {ageYears} years and " + ageDays + " days old");
-            Console.WriteLine("\nPress R for converting a new number, or any other key for closing the program");
+            Console.WriteLine("\nPress R for calculate a new birthday, or any other key for closing the program");
 
             // Waits for an user input, and if the user presses R, then can the user convert a new number
             if (Console.ReadKey(true).Key == ConsoleKey.R)
